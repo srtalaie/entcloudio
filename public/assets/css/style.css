@@ -38,7 +38,13 @@
     opacity: 0.4;
 }
 
+#about-row {
+    display: flex;
+    justify-content: center;
+}
 
+
+/* Animation */
 @keyframes fadeIn {
     0% {
       opacity:0;
