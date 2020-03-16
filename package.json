@@ -1,0 +1,26 @@
+{
+  "name": "entcloudio",
+  "version": "1.0.0",
+  "description": "Web brouchure for entcloud.io",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srtalaie/entcloudio.git"
+  },
+  "author": "Sasha Talaie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srtalaie/entcloudio/issues"
+  },
+  "homepage": "https://github.com/srtalaie/entcloudio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
