@@ -38,9 +38,10 @@
     opacity: 0.4;
 }
 
-#about-row {
+#info-row {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 
