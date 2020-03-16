@@ -42,8 +42,23 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
+#playstore-img {
+    max-width: 50%;
+}
+
+
+.fGrey{
+    background-color: #f2f2f2;
+    
+}
+
+.feature-head {
+    font-weight: bold;
+}
 
 /* Animation */
 @keyframes fadeIn {
