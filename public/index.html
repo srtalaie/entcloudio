@@ -18,10 +18,14 @@
             <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#about">About</a></li>
             <li><a href="#product">Product</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#privacy">Privacy</a></li>
             </ul>
             <ul class="sidenav" id="mobile-menu">
             <li><a href="#about">About</a></li>
             <li><a href="#product">Product</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#privacy">Privacy</a></li>
             </ul>
         </div>
     </nav>
@@ -36,7 +40,7 @@
     </div>
 
     <!-- Content -->
-    <div class="row" id="info-row">
+    <div class="row about-info" id="info-row">
         <h2 class="grey-text text-darken-4">About Us</h2>
         <p class="flow-text">
             A leading technology company that is committed to developing innovative ways to protect your internet privacy by making you invisible to advertisers, phishing, tracking, and malware.
@@ -49,7 +53,7 @@
         <h4>SecureDNS</h4>
         <p class="flow-text">SecureDNS is your complete tracking and ad blocking solution. Protects you from domain name manipulations like DNS hijacking. Unlike traditional VPN services, we don't mask or re-route your traffic into our network and stay connected to all your content when traveling to countries with censorship policies.</p>
         <a href="https://play.google.com/store/apps/details?id=app.securedns"><img class="responsive-img" id="playstore-img" src="/images/playstorebadge" alt="google-play-store-img" /></a>
-        <h5>Features</h5>
+        <h4>Features</h4>
         <div id="features-row">
             <div class="row">
                 <div class="col s6">
@@ -77,6 +81,37 @@
             </div>
         </div>
     </div>
+    <div id="how-it-works-row">
+        <h4>How it Works</h4>
+        <a name="how-it-works"></a>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BNN4fp8mBYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="row">
+            <div class="col s8">
+                <p class="flow-text">DNS (Domain Name Systems) servers are the phonebook of the internet. It translates human-readable internet address such as https://entcloud.io to computer friendly address known as IP address. Hackers have targeted DNS servers, manipulating its weakness to gain access to personal information.</p>
+            </div>
+            <div class="col s4">
+                <img class="responsive-img" src="/images/dns" alt="dns" id="dns-icon" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col s4">
+                <img class="responsive-img" src="/images/secure" alt="dns" id="secure-icon" />
+            </div>
+            <div class="col s8">
+                <p class="flow-text">SecureDNS protects you from such attacks by encrypting your DNS queries. It includes ad-blocking, and anti-tracking feature keeping your connected life safe and secure</p>
+            </div>
+        </div>
+    </div>
+    <div id="privacy-log">
+        <a name="privacy"></a>
+        <h4>Your Privacy</h4>
+        <p class="flow-text">We built SecureDNS to make your connected life secure, ad-free, and tracker free. Unlike a typical VPN client, we do not mask your IP address or re-route your internet traffic.</p>
+        <h4>What We Log</h4>
+        <p class="flow-text">Since SecureDNS uses DNS over HTTPS (or DoH), typical data logs that are associated with running a web server are written and collected. These logs are deleted roughly 24 hours later.</p>
+
+        <p class="flow-text">These are typically needed to detect any deliberate attacks against our servers and to analyze new domains that may be included in our ad-blocking feature.</p>
+    </div>
+    
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>

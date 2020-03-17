@@ -25,4 +25,12 @@ module.exports = function(app){
     app.get('/images/wifi', function(req, res){
         res.sendFile(path.join(__dirname, "../public/assets/images/wifi.svg"));
     });
+
+    app.get('/images/dns', function(req, res){
+        res.sendFile(path.join(__dirname, "../public/assets/images/dns.png"));
+    });
+
+    app.get('/images/secure', function(req, res){
+        res.sendFile(path.join(__dirname, "../public/assets/images/secure.png"));
+    });
 }

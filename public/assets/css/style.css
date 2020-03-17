@@ -50,7 +50,6 @@
     max-width: 50%;
 }
 
-
 .fGrey{
     background-color: #f2f2f2;
     
@@ -58,6 +57,44 @@
 
 .feature-head {
     font-weight: bold;
+}
+
+#how-it-works-row {
+  background-color: #f2f2f2;
+  color: #242424;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#privacy-log {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.about-info {
+  background-color: #f2f2f2;
+  color: #242424;
+}
+
+iframe {
+  max-width: 100%;
+  max-height: 100%;
+  align-self: center;
+}
+
+/* Media Rules */
+@media only screen and (max-width: 330px) {
+  #dns-icon {
+    margin-top: 200%;
+  }
+
+  #secure-icon {
+    margin-top: 100%;
+  }
 }
 
 /* Animation */
@@ -104,3 +141,9 @@
     100% {
       opacity:1;
   }
+}
+
+#features-row img:hover{
+  transform: scale(1.1);
+  transition: all ease 500ms;
+}
