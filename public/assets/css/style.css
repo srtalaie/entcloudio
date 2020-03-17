@@ -7,6 +7,10 @@
     overflow: hidden;
 }
 
+h4 {
+  font-weight: bold;
+}
+
 .hero-text {
     position: absolute;
     align-self: center;
