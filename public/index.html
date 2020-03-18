@@ -13,7 +13,7 @@
     <!-- Navbar -->
     <nav>
         <div class="nav-wrapper grey darken-4">
-            <a href="#!" class="brand-logo" id="brand-name">ENTCLOUD</a>
+            <a href="#" class="brand-logo" id="brand-name">ENTCLOUD</a>
             <a href="#" data-target="mobile-menu" class="sidenav-trigger"><i class="material-icons">menu</i>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#about">About</a></li>
@@ -39,6 +39,8 @@
         <img id="hero" class="responsive-img" src="/images/hero-img" alt="hero-img"/>
     </div>
 
+    <a href="#" id="back-to-top">BACK TO TOP</a>
+    
     <!-- Content -->
     <a name="about"></a>
     <div class="row about-info" id="info-row">
@@ -111,12 +113,17 @@
 
         <p class="flow-text">These are typically needed to detect any deliberate attacks against our servers and to analyze new domains that may be included in our ad-blocking feature.</p>
     </div>
-    
+    <footer>
+        <p id="copy-date"></p>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
         $(document).ready(function(){
             $('.sidenav').sidenav();
+            let date = new Date;
+            let fullYear = date.getFullYear()
+            $('#copy-date').html(`ENTCLOUD &copy;${fullYear}`)
         });
     </script>
 </body>
