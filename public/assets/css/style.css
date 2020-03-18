@@ -151,3 +151,53 @@ iframe {
   transform: scale(1.1);
   transition: all ease 500ms;
 }
+
+#dns-text {
+	-webkit-animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
+	        animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
+}
+ @-webkit-keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slide-right {
+  0% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+#secure-text {
+	-webkit-animation: slide-left 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
+	        animation: slide-left 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
+}
+ @-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
