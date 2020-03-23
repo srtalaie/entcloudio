@@ -4,6 +4,12 @@
   right:0;
 }
 
+#back-to-top img {
+    height: 100%;
+    width: 50px;
+    opacity: 50%;
+}
+
 .hero-div {
   position: relative;
   text-align: center;

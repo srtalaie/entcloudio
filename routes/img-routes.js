@@ -33,4 +33,8 @@ module.exports = function(app){
     app.get('/images/secure', function(req, res){
         res.sendFile(path.join(__dirname, "../public/assets/images/secure.png"));
     });
+
+    app.get('/images/arrow', function(req, res){
+        res.sendFile(path.join(__dirname, "../public/assets/images/arrow.png"));
+    });
 }
