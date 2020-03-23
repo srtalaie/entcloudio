@@ -169,7 +169,7 @@ footer {
   }
 }
 
-#features-row img:hover{
+.img-hover:hover{
   transform: scale(1.1);
   transition: all ease 500ms;
 }
