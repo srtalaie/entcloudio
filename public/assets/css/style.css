@@ -174,7 +174,7 @@ footer {
   transition: all ease 500ms;
 }
 
-#dns-text {
+.dns-text-animation {
 	-webkit-animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
 	        animation: slide-right 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
 }
@@ -199,7 +199,7 @@ footer {
   }
 }
 
-#secure-text {
+.secure-text-animation {
 	-webkit-animation: slide-left 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
 	        animation: slide-left 5s cubic-bezier(0.250, 0.460, 0.450, 0.940) ;
 }
